@@ -51,6 +51,9 @@ The parallel “stable” three-way quicksort algorithm introduced in:
 •	Nvidia GeForce GTX 1070 SLI x 2 8 GiB GDDR5 Graphics Cards;
 ### Software:
 •   OS Ubuntu Desktop 18.04.4 Bionic Beaver (Linux Kernel x86_64 5.3.0 or higher) **only**
+
 •	Nvidia CUDA Development Toolkit;
+
 •	Intel’s Open-Source Clang/LLVM compiler distribution;
+
 •	OpenMP 4.5/5.0 Library with offloading capabilities;

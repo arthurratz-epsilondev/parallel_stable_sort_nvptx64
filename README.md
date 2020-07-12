@@ -2,7 +2,7 @@
 
 ### Author: Arthur V. Ratz @ Intel® DevMesh
 
-Download the complete project ISO-image from Google Drive: https://drive.google.com/drive/folders/158kR9MPDbSYm0o7gGuw4dzKtoJDyqjyu?usp=sharing 
+Download the complete project ISO-images from Google Drive: https://drive.google.com/drive/folders/158kR9MPDbSYm0o7gGuw4dzKtoJDyqjyu?usp=sharing https://drive.google.com/drive/folders/1oSPPXOWTTUB9Mmng6uPjCxnnGqYymsTR?usp=sharing
 
 ## Overview / Usage
 The following project is another alternative of the parallel “stable” three-way quicksort implementation, previously introduced in my https://devmesh.intel.com/projects/parallel-stable-sort-performance-optimization-using-intel-parallel-studio-xe-and-intel-oneapi-hpc-toolkit project. The main goal of this project is to provide an even better performance speed-up gain of the parallel “stable” three-way quicksort, offloading the execution of specific workloads to the Nvidia GPUs, rather than host CPU and other acceleration targets, offering the ultimately high performance (about 36x faster) compared to the sequential quicksort execution. Unlike the previous project, I’ve used the OpenMP 4.5/5.0 library with offloading capabilities and open-source distribution of the Intel’s Clang/LLVM compiler (https://github.com/llvm/llvm-project) to deliver a modern code, implementing the parallel three-way quicksort, being introduced.

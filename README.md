@@ -18,9 +18,10 @@ The parallel “stable” three-way quicksort algorithm introduced in:
 
 0. Download The Project's ISO-image at https://drive.google.com/drive/folders/158kR9MPDbSYm0o7gGuw4dzKtoJDyqjyu?usp=sharing
 
-1.	Mount the iso-image by using the following command from bash-console terminal:
+1.	Mount the iso-images by using the following command from bash-console terminal:
 
 		user@intel-llvm:~$ mount .parallel_stable_sort_nvptx64.iso /mnt
+		user@intel-llvm:~$ mount .parallel_stable_sort_oneapi.iso /mnt
 
 2.	Copy all files from the mnt directory to a preferred location (e.g. home/user/Projects)
 
